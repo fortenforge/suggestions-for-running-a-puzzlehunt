@@ -26,8 +26,6 @@ In broad strokes here is how to write a puzzlehunt: First choose a theme and met
 
 If you are not writing an entire hunt by yourself (or maybe if you are and your hunt is also really large), you'll want to closely monitor the status of all of your puzzles and make sure that they're all on track to be finalized by the time your hunt starts. If your hunt is relatively small you might be able to get by with a simple spreadsheet, but if you have 20 or more puzzles to write, we suggest you consider setting up puzzletron(https://github.com/mysteryhunt/puzzle-editing) to organize your process. Besides checking the status of all your puzzles, one major benefit of puzzletron provides is managing your testsolving sessions (more on this below).
 
-If you
-
 ## Testsolving
 
 ## Factchecking
@@ -37,7 +35,7 @@ If you
 # Puzzle Design
 
 ## Answer Selection
-To the extent possible, make your answers real English words or phrases. Well-known proper nouns are usually fine, as are very long phrases, but random word mashes ("VIBRATING BANANA") are less ok, and keyboard mashes ("JDIELDNSDFJKLSD") are a no-no. Be careful when choosing thematic answers: if there are enough constraints imposed by the meta or the puzzle structure, solvers may be able to bypass large chunks of your puzzle by querying an engine for thematic answers.
+To the extent possible, make your answers real English words or phrases. Well-known proper nouns or foreign phrases are usually fine, as are very long phrases, but random word mashes ("VIBRATING BANANA") are less ok, and keyboard mashes ("JDIELDNSDFJKLSD") are a no-no. Be careful when choosing thematic answers: if there are enough constraints imposed by the meta or the puzzle structure, solvers may be able to bypass large chunks of your puzzle by querying an engine for thematic answers.
 
 ## Cluephrases
 
@@ -63,4 +61,3 @@ LIST OF THINGS
 * Factcheck, factcheck, factcheck
 * Make the presentation of different puzzles consistent between them
 * Write your solutions ahead of time
-* Consider using puzzletron to organize your process
