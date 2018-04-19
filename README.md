@@ -10,7 +10,7 @@ It's a good idea to play plenty of puzzlehunts so that you can know your target 
 
 ## Timing
 
-Use the [Puzzle Hunt Calendar](http://puzzlehuntcalendar.com/) to avoid scheduling conflicts. You can email [Dan Egnor](egnor@ofb.net) to include your event on the calendar. Continuously-run events are best scheduled to run through the weekend so that people don't have to skip work to participate.
+Use the [Puzzle Hunt Calendar](http://puzzlehuntcalendar.com/) to avoid scheduling conflicts. You can email [Dan Egnor](mailto:egnor@ofb.net) to include your event on the calendar. Continuously-run events are best scheduled to run through the weekend so that people don't have to skip work to participate.
 
 ## Scoring
 
