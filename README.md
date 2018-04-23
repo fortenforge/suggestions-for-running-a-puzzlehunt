@@ -24,13 +24,25 @@ In broad strokes here is how to write a puzzlehunt: First choose a theme and met
 
 ## Managing Puzzle Writing
 
-If you are not writing an entire hunt by yourself (or maybe if you are and your hunt is also really large), you'll want to closely monitor the status of all of your puzzles and make sure that they're all on track to be finalized by the time your hunt starts. If your hunt is relatively small you might be able to get by with a simple spreadsheet, but if you have 20 or more puzzles to write, we suggest you consider setting up puzzletron(https://github.com/mysteryhunt/puzzle-editing) to organize your process. Besides checking the status of all your puzzles, one major benefit of puzzletron provides is managing your testsolving sessions (more on this below).
+If you are not writing an entire hunt by yourself (or maybe if you are and your hunt is also really large), you'll want to closely monitor the status of all of your puzzles and make sure that they're all on track to be finalized by the time your hunt starts. If your hunt is relatively small you might be able to get by with a simple spreadsheet, but if you have 20 or more puzzles to write, we suggest you consider setting up [puzzletron](https://github.com/mysteryhunt/puzzle-editing) to organize your process. Besides checking the status of all your puzzles, one major benefit of puzzletron provides is managing your testsolving sessions (more on this below).
 
 ## Testsolving
+
+## Solution Writing
+
+You want to be able to release well-written solutions to all your puzzles the moment the hunt is officially over. As such, writing a solution to your puzzle is the very first step after a puzzle has been successfully testsolved. Try to make sure your solution includes data for every step of your puzzle - include all answers to intermediate steps leaving nothing implicit. Also, be mindful of the tone you strike when drafting your solution: you want to avoid being condescending or deprecating in any way.
 
 ## Factchecking
 
 ## Post-Production
+
+Once a puzzle has been successfully testsolved and factchecked to your satisfaction, the final step is to do the work required to make it presentable to solvers, whether this means rendering it as a PDF or converting it to HTML. (Postproduction is listed last step after factchecking on puzzletron, but it might make sense for you to do factchecking after postproduction, so that you can catch errors made during the puzzle rendering process.)
+
+The most important thing to keep in mind during post-production is to aim for a consistency of presentation among your puzzles. In the words of Dan Katz:
+
+> This might not seem like a big deal, but it’s a bit like the brown M&M’s in the Van Halen rider… when an experienced solver sees that the constructors haven’t taken the time to give the puzzles a look that’s at least minimally consistent, it immediately makes them suspicious about whether there’s been attention to detail in other places.
+
+If you're presenting your puzzles as HTML webpages, you should also make sure that they look ok when printed, particularly for puzzles which would benefit solving with a paper copy. Another small quality-of-life change is to make the HTML page title the puzzle name, so that solvers with multiple tabs open on your website can distinguish between different puzzles.
 
 # Puzzle Design
 
@@ -42,6 +54,10 @@ To the extent possible, make your answers real English words or phrases. Well-kn
 Sometimes the answer you are assigned may not meet the constraints imposed by your proposed extraction. In this case, you'll want to have your extraction result in a *cluephrase*, a crossword-style clue that yields your assigned answer. For solvers, there are few worse experiences during a puzzlehunt than being stuck on a cluephrase for a puzzle. Hence, you should put a lot of thought into selecting a good cluephrase. Before you sink a lot of time and effort into creating your puzzle, run your cluephrase by an editor or another person first, to make sure that they are able to solve it. Finally: if your puzzle doesn't involve cryptic clues, your cluephrase shouldn't be a cryptic clue.
 
 ## Random Anagrams
+
+There is a widespread puzzlehunting convention that no particular step in your puzzle should involve an unclued unscrambling of a string of letters to produce a word or phrase. (Novice puzzle authors violate this rule all the time, and it's become something of a [running joke](http://web.mit.edu/puzzle/www/2015/puzzle/a_puzzle_consisting_entirely_of_random_anagrams/) in the community).
+
+To be clear: *clued* anagrams, where you're given some additional means of confirming that you have the correct unscramble (such as the definition-half of a cryptic clue) are perfectly reasonable. Even unclued anagrams of short words is often permissible, as long as it's not the final step in a puzzle.
 
 ## Meta Design
 
@@ -56,8 +72,6 @@ Almost inevitably, despite your meticulous testsolving and factchecking, some er
 If the report is correct, first acknowledge the error in your reply to the report and promise that you'll have a fix up as soon as possible. Then, correct the error and simultaneously announce and describe the correction made somewhere else on the website. A page devoted to "Errata / Updates" suffices. If the error is significant (use your discretion), you'll also want to alert solvers via some other communications pathway (usually a mass email).
 
 LIST OF THINGS
-* Avoid unclued anagrams
 * Testsolve, testsolve, testsolve
 * Factcheck, factcheck, factcheck
-* Make the presentation of different puzzles consistent between them
-* Write your solutions ahead of time
+* Hints
