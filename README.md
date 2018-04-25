@@ -28,11 +28,22 @@ If you are not writing an entire hunt by yourself (or maybe if you are and your 
 
 ## Testsolving
 
+Testsolving, the process of having unspoiled solvers try out your puzzle, is the most important step in the puzzle writing process. Even very experienced puzzle constructors routinely write puzzles which are too difficult to be solved.
+
+Testsolving not only allows other people to give you valuable feedback, but also proves that your puzzle is actually solvable. Writing teams for the MIT Mystery Hunt usually require that all puzzles that end up in the hunt receive two successful, independent, unspoiled testsolves. Depending on how many people you have available for testsolving, this might be a high threshold to match, but you should be very wary of including a puzzle in your hunt which has received no successful testsolves.
+
+If you have a lot of puzzles, puzzle authors, and testsolvers, it can be hard to manage the testsolving process. One of puzzletron's most useful features is that it allows testsolvers to independently find a puzzle that they are unspoiled on and testsolve it. It also forces testsolvers to writeup a report of their efforts which will get relayed back to the author and editor.
+
+It can be very hard to resist the temptation to interfere in an ongoing testsolving session for a puzzle that you wrote. Nevertheless, it's important to not intervene in any way to replicate the conditions that real solvers will be operating under in your hunt. If you must give a hint, try to emulate whatever hint-granting process you've agreed upon for your hunt (i.e. if you plan to have Y/N hints, allow testsolvers to ask you a Y/N question).
+
 ## Solution Writing
 
 You want to be able to release well-written solutions to all your puzzles the moment the hunt is officially over. As such, writing a solution to your puzzle is the very first step after a puzzle has been successfully testsolved. Try to make sure your solution includes data for every step of your puzzle - include all answers to intermediate steps leaving nothing implicit. Also, be mindful of the tone you strike when drafting your solution: you want to avoid being condescending or deprecating in any way.
 
 ## Factchecking
+
+This process is designed to suss out any errors (trivial or puzzle-breaking) that may exist that neither you nor the testsolvers managed to catch. Fact-checking should be done by volunteers (not the puzzle authors themselves). It is the factchecker's responsibility to question every assumption and verify every step. Fact-checkers must check both the puzzle and the provided solution and make sure they are 100% consistent.
+
 
 ## Post-Production
 
@@ -71,7 +82,18 @@ Almost inevitably, despite your meticulous testsolving and factchecking, some er
 
 If the report is correct, first acknowledge the error in your reply to the report and promise that you'll have a fix up as soon as possible. Then, correct the error and simultaneously announce and describe the correction made somewhere else on the website. A page devoted to "Errata / Updates" suffices. If the error is significant (use your discretion), you'll also want to alert solvers via some other communications pathway (usually a mass email).
 
-LIST OF THINGS
-* Testsolve, testsolve, testsolve
-* Factcheck, factcheck, factcheck
-* Hints
+## Answer Checking
+
+Strip non-alphabetic characters from your answers and convert them to uppercase before checking them.
+
+Some hunts accept multiple different answers for a puzzle, but provide a "canonical answer" to use for the meta. This is generally viewed as inelegant / bad form by the puzzlehunting community, but does have the advantage of tolerating ambiguous clue phrases. A better solution is to ensure that your puzzle has only one unique answer; sometimes the right way to do this is to provide an explicit answer enumeration at the end of the puzzle.
+
+## Hints
+
+There's a wide disparity in skill level of puzzlehunting teams. It's likely that some teams participating in your hunt won't be able to complete it without relying on hints. There are several different ways to provide hints. Probably the easiest way operationally are "canned (pre-written) hints". One problem with canned hints is that the hint will often help with a part of the puzzle that a team has already figured out.
+
+If you're feeling ambitious, you can offer some form of dynamic hinting. One system popularized by the 2015 MIT Mystery Hunt is Y/N hinting, in which teams get to ask any Yes / No question about the puzzle that they would like. This ensures that every team with the hint receives exactly 1 bit of information from it, while allowing teams stuck on different parts of the puzzle to receive different pieces of information. Some people also find crafting a good Y/N question to ask on a puzzle to be a fun exercise, and something of a puzzle in and of itself.
+
+If you do give out Y/N questions, don't be too stingy with them! 1 Y/N question tends to not help very much, but a series of carefully targeted Y/N questions can often get teams unstuck, without ever feeling like you're spoiling major parts of the puzzle for them.
+
+One major downside to Y/N hints is that the teams that make use of them the best tend to be the ones who are already doing well on the hunt in the first place. Inevitably, there will be teams that will need a specific nudge forward, and you should have some provision of your hint system that allows them to get help.
