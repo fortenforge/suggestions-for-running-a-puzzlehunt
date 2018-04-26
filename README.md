@@ -42,8 +42,7 @@ You want to be able to release well-written solutions to all your puzzles the mo
 
 ## Factchecking
 
-This process is designed to suss out any errors (trivial or puzzle-breaking) that may exist that neither you nor the testsolvers managed to catch. Fact-checking should be done by volunteers (not the puzzle authors themselves). It is the factchecker's responsibility to question every assumption and verify every step. Fact-checkers must check both the puzzle and the provided solution and make sure they are 100% consistent.
-
+This process is designed to suss out any errors, trivial or puzzle-breaking, that may exist that neither you nor the testsolvers managed to catch. (These may include errors that were introduced between when the puzzle was written and when the hunt is slated to run, due to the state of the world changing and clues in your puzzle becoming inaccurate!) Fact-checking should be done by volunteers, not the puzzle authors themselves. It is the factchecker's responsibility to question every assumption and verify every step. Fact-checkers must check both the puzzle and the provided solution and make sure they are 100% consistent.
 
 ## Post-Production
 
