@@ -28,7 +28,7 @@ If you are not writing an entire hunt by yourself (or maybe if you are and your 
 
 ## Testsolving
 
-Testsolving, the process of having unspoiled solvers try out your puzzle, is the most important step in the puzzle writing process. Even very experienced puzzle constructors routinely write puzzles which are too difficult to be solved.
+Testsolving is the process of having unspoiled solvers try out your puzzle. **Testsolving is the most important step in the puzzle writing process.** Even very experienced puzzle constructors routinely write puzzles which are too difficult to be solved.
 
 Testsolving not only allows other people to give you valuable feedback, but also proves that your puzzle is actually solvable. Writing teams for the MIT Mystery Hunt usually require that all puzzles that end up in the hunt receive two successful, independent, unspoiled testsolves. Depending on how many people you have available for testsolving, this might be a high threshold to match, but you should be very wary of including a puzzle in your hunt which has received no successful testsolves.
 
@@ -38,12 +38,11 @@ It can be very hard to resist the temptation to interfere in an ongoing testsolv
 
 ## Solution Writing
 
-You want to be able to release well-written solutions to all your puzzles the moment the hunt is officially over. As such, writing a solution to your puzzle is the very first step after a puzzle has been successfully testsolved. Try to make sure your solution includes data for every step of your puzzle - include all answers to intermediate steps leaving nothing implicit. Also, be mindful of the tone you strike when drafting your solution: you want to avoid being condescending or deprecating in any way.
+You want to be able to release well-written solutions to all your puzzles the moment the hunt is officially over. As such, writing a solution to your puzzle is the very first step after a puzzle has been successfully testsolved. Try to make sure your solution includes data for every step of your puzzle — include all answers to intermediate steps leaving nothing implicit. Also, be mindful of the tone you strike when drafting your solution: you want to avoid being condescending or deprecating in any way.
 
 ## Factchecking
 
-This process is designed to suss out any errors (trivial or puzzle-breaking) that may exist that neither you nor the testsolvers managed to catch. Fact-checking should be done by volunteers (not the puzzle authors themselves). It is the factchecker's responsibility to question every assumption and verify every step. Fact-checkers must check both the puzzle and the provided solution and make sure they are 100% consistent.
-
+This process is designed to suss out any errors, trivial or puzzle-breaking, that may exist that neither you nor the testsolvers managed to catch. (These may include errors that were introduced between when the puzzle was written and when the hunt is slated to run, due to the state of the world changing and clues in your puzzle becoming inaccurate!) Fact-checking should be done by volunteers, not the puzzle authors themselves. It is the factchecker's responsibility to question every assumption and verify every step. Fact-checkers must check both the puzzle and the provided solution and make sure they are 100% consistent.
 
 ## Post-Production
 
@@ -68,7 +67,7 @@ Sometimes the answer you are assigned may not meet the constraints imposed by yo
 
 There is a widespread puzzlehunting convention that no particular step in your puzzle should involve an unclued unscrambling of a string of letters to produce a word or phrase. (Novice puzzle authors violate this rule all the time, and it's become something of a [running joke](http://web.mit.edu/puzzle/www/2015/puzzle/a_puzzle_consisting_entirely_of_random_anagrams/) in the community).
 
-To be clear: *clued* anagrams, where you're given some additional means of confirming that you have the correct unscramble (such as the definition-half of a cryptic clue) are perfectly reasonable. Even unclued anagrams of short words is often permissible, as long as it's not the final step in a puzzle.
+To be clear: *clued* anagrams, where you're given some additional means of confirming that you have the correct unscramble (such as the definition-half of a cryptic clue), are perfectly reasonable. Even unclued anagrams of short words is often permissible, as long as it's not the final step in a puzzle.
 
 ## Meta Design
 
@@ -86,7 +85,7 @@ If the report is correct, first acknowledge the error in your reply to the repor
 
 Strip non-alphabetic characters from your answers and convert them to uppercase before checking them.
 
-Some hunts accept multiple different answers for a puzzle, but provide a "canonical answer" to use for the meta. This is generally viewed as inelegant / bad form by the puzzlehunting community, but does have the advantage of tolerating ambiguous clue phrases. A better solution is to ensure that your puzzle has only one unique answer; sometimes the right way to do this is to provide an explicit answer enumeration at the end of the puzzle.
+Some hunts accept multiple different answers for a puzzle, but provide the solver with a "canonical answer" to use for the meta when the solver submits one of the other answers. This is generally viewed as inelegant / bad form by the puzzlehunting community, but does have the advantage of tolerating ambiguous clue phrases. Some other hunts have answer checkers that respond to particular incorrect answers with messages, from mere confirmational messages like "Keep going!" to explicit instructions on what the next step is, which may be useful especially for hunts for inexperienced puzzlers but is also considered inelegant by many. The best solution is to ensure that your puzzle has only one unique answer; sometimes the right way to do this is to provide an explicit answer enumeration or sequence of blanks at the end of the puzzle.
 
 ## Hints
 
