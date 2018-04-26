@@ -86,7 +86,7 @@ If the report is correct, first acknowledge the error in your reply to the repor
 
 Strip non-alphabetic characters from your answers and convert them to uppercase before checking them.
 
-Some hunts accept multiple different answers for a puzzle, but provide a "canonical answer" to use for the meta. This is generally viewed as inelegant / bad form by the puzzlehunting community, but does have the advantage of tolerating ambiguous clue phrases. A better solution is to ensure that your puzzle has only one unique answer; sometimes the right way to do this is to provide an explicit answer enumeration at the end of the puzzle.
+Some hunts accept multiple different answers for a puzzle, but provide the solver with a "canonical answer" to use for the meta when the solver submits one of the other answers. This is generally viewed as inelegant / bad form by the puzzlehunting community, but does have the advantage of tolerating ambiguous clue phrases. Some other hunts have answer checkers that respond to particular incorrect answers with messages, from mere confirmational messages like "Keep going!" to explicit instructions on what the next step is, which may be useful especially for hunts for inexperienced puzzlers but is also considered inelegant by many. The best solution is to ensure that your puzzle has only one unique answer; sometimes the right way to do this is to provide an explicit answer enumeration or sequence of blanks at the end of the puzzle.
 
 ## Hints
 
