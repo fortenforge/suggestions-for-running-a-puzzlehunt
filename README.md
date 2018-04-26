@@ -28,7 +28,7 @@ If you are not writing an entire hunt by yourself (or maybe if you are and your 
 
 ## Testsolving
 
-Testsolving, the process of having unspoiled solvers try out your puzzle, is the most important step in the puzzle writing process. Even very experienced puzzle constructors routinely write puzzles which are too difficult to be solved.
+Testsolving is the process of having unspoiled solvers try out your puzzle. **Testsolving is the most important step in the puzzle writing process.** Even very experienced puzzle constructors routinely write puzzles which are too difficult to be solved.
 
 Testsolving not only allows other people to give you valuable feedback, but also proves that your puzzle is actually solvable. Writing teams for the MIT Mystery Hunt usually require that all puzzles that end up in the hunt receive two successful, independent, unspoiled testsolves. Depending on how many people you have available for testsolving, this might be a high threshold to match, but you should be very wary of including a puzzle in your hunt which has received no successful testsolves.
 
@@ -38,7 +38,7 @@ It can be very hard to resist the temptation to interfere in an ongoing testsolv
 
 ## Solution Writing
 
-You want to be able to release well-written solutions to all your puzzles the moment the hunt is officially over. As such, writing a solution to your puzzle is the very first step after a puzzle has been successfully testsolved. Try to make sure your solution includes data for every step of your puzzle - include all answers to intermediate steps leaving nothing implicit. Also, be mindful of the tone you strike when drafting your solution: you want to avoid being condescending or deprecating in any way.
+You want to be able to release well-written solutions to all your puzzles the moment the hunt is officially over. As such, writing a solution to your puzzle is the very first step after a puzzle has been successfully testsolved. Try to make sure your solution includes data for every step of your puzzle — include all answers to intermediate steps leaving nothing implicit. Also, be mindful of the tone you strike when drafting your solution: you want to avoid being condescending or deprecating in any way.
 
 ## Factchecking
 
@@ -67,7 +67,7 @@ Sometimes the answer you are assigned may not meet the constraints imposed by yo
 
 There is a widespread puzzlehunting convention that no particular step in your puzzle should involve an unclued unscrambling of a string of letters to produce a word or phrase. (Novice puzzle authors violate this rule all the time, and it's become something of a [running joke](http://web.mit.edu/puzzle/www/2015/puzzle/a_puzzle_consisting_entirely_of_random_anagrams/) in the community).
 
-To be clear: *clued* anagrams, where you're given some additional means of confirming that you have the correct unscramble (such as the definition-half of a cryptic clue) are perfectly reasonable. Even unclued anagrams of short words is often permissible, as long as it's not the final step in a puzzle.
+To be clear: *clued* anagrams, where you're given some additional means of confirming that you have the correct unscramble (such as the definition-half of a cryptic clue), are perfectly reasonable. Even unclued anagrams of short words is often permissible, as long as it's not the final step in a puzzle.
 
 ## Meta Design
 
