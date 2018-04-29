@@ -56,6 +56,8 @@ If you're presenting your puzzles as HTML webpages, you should also make sure th
 
 # Puzzle Design
 
+Other resources on puzzle design: [dwilson's puzzlewriting page](http://web.mit.edu/dwilson/www/puzzles/puzzlewriting.html) and Foggy Brume's puzzling standards: [part 1](https://foggyb.livejournal.com/42978.html), [part 2](https://foggyb.livejournal.com/43107.html), and [part 3](https://foggyb.livejournal.com/43360.html).
+
 ## Answer Selection
 To the extent possible, make your answers real English words or phrases. Well-known proper nouns or foreign phrases are usually fine, as are very long phrases, but random word mashes ("VIBRATING BANANA") are less ok, and keyboard mashes ("JDIELDNSDFJKLSD") are a no-no. Be careful when choosing thematic answers: if there are enough constraints imposed by the meta or the puzzle structure, solvers may be able to bypass large chunks of your puzzle by querying an engine for thematic answers.
 
