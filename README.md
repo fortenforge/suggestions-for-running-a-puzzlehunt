@@ -79,7 +79,7 @@ As a rough rule, metas should generally be solvable with 80% of the puzzles, and
 
 ## Errata
 
-Almost inevitably, despite your meticulous testsolving and factchecking, some errors will remain in your hunt. During the hunt, you should have a way for solvers to report these errors to you (an email address that you monitor regularly tends to work best). When one of these reports comes in, your first job is to verify that the error is actually present! Issuing an errata feels bad, but issuing an incorrect errata is worse. If you believe the report is incorrect, it's best to respond with something that yields no additional information. We've found "the puzzle is correct as written" tends to work well.
+Almost inevitably, despite your meticulous testsolving and factchecking, some errors will remain in your hunt. During the hunt, you should have a way for solvers to report these errors to you (an email address that you monitor regularly tends to work best). When one of these reports comes in, your first job is to verify that the error is actually present! Issuing an erratum feels bad, but issuing an incorrect erratum is worse. If you believe the report is incorrect, it's best to respond with something that yields no additional information. We've found "the puzzle is correct as written" tends to work well.
 
 If the report is correct, first acknowledge the error in your reply to the report and promise that you'll have a fix up as soon as possible. Then, correct the error and simultaneously announce and describe the correction made somewhere else on the website. A page devoted to "Errata / Updates" suffices. If the error is significant (use your discretion), you'll also want to alert solvers via some other communications pathway (usually a mass email).
 
