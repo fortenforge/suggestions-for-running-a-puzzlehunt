@@ -136,13 +136,13 @@ One major downside to Y/N hints is that the teams that make use of them the best
 
 # Tech
 
-*See also [A Puzzlehunt Tech Checklist](https://www.alexirpan.com/2020/03/16/puzzlehunt-tech.html)*
+*See also: [A Puzzlehunt Tech Checklist](https://www.alexirpan.com/2020/03/16/puzzlehunt-tech.html)*.
 
 ## Hosting
 
 You have a number of options for hosting your puzzlehunt depending on your level of technical savvy. On one end, it's perfectly reasonable to release your hunt as a pdf and have people email you guesses to check. This doesn't scale well to large numbers of teams, but at least has the benefit of simplicity.
 
-If you're comfortable building a static website, you can host your hunt website using [Github Pages](https://pages.github.com/) or some equivalent service. This wouldn't let you have any unlocking logic or rate limit answer submissions, but it does add some level of polish. You can use [puzzlehunt.net](https://puzzlehunt.net)'s [Client-Side Answer Checker](https://www.puzzlehunt.net/checker) (or something equivalent) to allow teams to check their own answers.
+If you're comfortable building a static website, you can host your hunt website using [Github Pages](https://pages.github.com/) or some equivalent service. This wouldn't let you have any unlocking logic or rate limit answer submissions, but it does add some level of polish. You can use [puzzlehunt.net](https://www.puzzlehunt.net)'s [Client-Side Answer Checker](https://www.puzzlehunt.net/checker) (or something equivalent) to allow teams to check their own answers.
 
 However, if you want team accounts, custom unlocking, or a live leaderboard, you probably need to build and host a dynamic website. [gph-site](https://github.com/galacticpuzzlehunt/gph-site) and [puzzlehunt_server](https://github.com/dlareau/puzzlehunt_server) are two open-source applications that allow you to run a custom puzzlehunt. Both are written in Django and both have been used in multiple online hunts.
 
@@ -150,8 +150,8 @@ However, if you want team accounts, custom unlocking, or a live leaderboard, you
 
 Email is a surprisingly tricky aspect of puzzlehunts to get right. It's useful to distinguish between two different use cases. Emails to **everyone** and emails to **a single team**.
 
-Counterintuitively, emailing each member of a certain team may be the easier of the two. [gph-site](https://github.com/galacticpuzzlehunt/gph-site) and [puzzlehunt_server](https://github.com/dlareau/puzzlehunt_server) uses Django's built-in email functionality, and it's relatively easy and cheap to hook it up to a transactional email service like [Mailgun](https://www.mailgun.com/) and configure your website to send an email upon team registration or solving a meta.
+Counterintuitively, emailing each member of a certain team may be the easier of the two. [gph-site](https://github.com/galacticpuzzlehunt/gph-site) and [puzzlehunt_server](https://github.com/dlareau/puzzlehunt_server) uses Django's built-in email functionality, and it's relatively easy and cheap to hook it up to a transactional email service like [Mailgun](https://www.mailgun.com/) and configure your website to send an email whenever a team registers or solves a metapuzzle.
 
-Emailing all the participants at once (say, if you want to announce an erratum or declare a winner) is trickier. If you try to use a service like Mailgun, you'll find that many email providers like Gmail will reject a large fraction of the emails you send as a spam-prevention measure. Even sending the emails in batches will still cause you trouble. Instead, you're better off using a dedicated email marketing service like [Mailchimp](https://mailchimp.com/) or [Sendgrid](https://sendgrid.com/). These are both pretty pricey (~$30 a month), but you get what you pay for.
+Emailing all the participants at once (say, if you want to announce an erratum or declare a winner) is trickier. If you try to use a service like Mailgun, you'll find that many clients like Gmail will reject a large fraction of the emails you send as a spam-prevention measure. Even sending the emails in batches will still cause you trouble. Instead, you're better off using a dedicated email marketing service like [Mailchimp](https://mailchimp.com/) or [Sendgrid](https://sendgrid.com/). These are both pretty pricey (~$30 a month), but you get what you pay for.
 
-If you're using an automated email system like Mailchimp, make sure you set the reply-to address to an address you can receive emails to (like a gmail account). If you're sending mass emails by hand, make sure you BCC participants' emails.
+If you're using an automated email system like Mailchimp, make sure you set the reply-to address to an address you can receive emails to (like a Gmail account). If you're sending mass emails by hand, make sure you BCC participants' emails.
