@@ -142,9 +142,11 @@ One major downside to Y/N hints is that the teams that make use of them the best
 
 You have a number of options for hosting your puzzlehunt depending on your level of technical savvy. On one end, it's perfectly reasonable to release your hunt as a pdf and have people email you guesses to check. This doesn't scale well to large numbers of teams, but at least has the benefit of simplicity.
 
-If you're comfortable building a static website, you can host your hunt website using [Github Pages](https://pages.github.com/) or some equivalent service. This wouldn't let you have any unlocking logic or rate limit answer submissions, but it does add some level of polish. You can use [puzzlehunt.net](https://www.puzzlehunt.net)'s [Client-Side Answer Checker](https://www.puzzlehunt.net/checker) (or something equivalent) to allow teams to check their own answers.
+If you're comfortable building a static website, you can host your hunt website using [Github Pages](https://pages.github.com/) or some equivalent service. This wouldn't let you have any unlocking logic or rate limit answer submissions, but it does add some level of polish. You can use [puzzlehunt.net](https://www.puzzlehunt.net)'s [Client-Side Answer Checker](https://www.puzzlehunt.net/checker) (or something equivalent) to allow teams to check their own answers, and just have teams email you for the answer to the final puzzle.
 
 However, if you want team accounts, custom unlocking, or a live leaderboard, you probably need to build and host a dynamic website. [gph-site](https://github.com/galacticpuzzlehunt/gph-site) and [puzzlehunt_server](https://github.com/dlareau/puzzlehunt_server) are two open-source applications that allow you to run a custom puzzlehunt. Both are written in Django and both have been used in multiple online hunts.
+
+One route a handful of puzzlehunts have taken is to host their hunt in a [Discord](https://discord.com/) server. You can use roles to give each team their own personal channel and create a Discord bot that will control answer submissions and puzzle unlocks. If you comfortable with Discord and bot programming, and you have fewer than ~100 teams, this could be a reasonable solution.
 
 ## Email
 
