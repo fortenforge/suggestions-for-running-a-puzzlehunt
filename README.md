@@ -24,9 +24,9 @@ In broad strokes here is how to write a puzzlehunt: First choose a theme and met
 
 ## Managing Puzzle Writing
 
-If you are not writing an entire hunt by yourself (or maybe if you are and your hunt is also really large), you'll want to closely monitor the status of all of your puzzles and make sure that they're all on track to be finalized by the time your hunt starts. If your hunt is relatively small you might be able to get by with a simple spreadsheet, but if you have 20 or more puzzles to write, we suggest you consider setting up [puzzlord](https://github.com/galacticpuzzlehunt/puzzlord) to organize your process. Besides checking the status of all your puzzles, one major benefit of puzzlord provides is managing your testsolving sessions (more on this below).
+If you are not writing an entire hunt by yourself (or maybe if you are and your hunt is also really large), you'll want to closely monitor the status of all of your puzzles and make sure that they're all on track to be finalized by the time your hunt starts. If your hunt is relatively small you might be able to get by with a simple spreadsheet, but if you have 20 or more puzzles to write, we suggest you consider setting up [Puzzlord](https://github.com/galacticpuzzlehunt/puzzlord) to organize your process. Besides checking the status of all your puzzles, one major benefit Puzzlord provides is managing your testsolving sessions (more on this below).
 
-Puzzlord is a redesigned version of [puzzletron](https://github.com/mysteryhunt/puzzle-editing), the software that Mystery Hunt teams historically used to organize their puzzle-writing. Puzzlord is a Django app (Puzzletron uses PHP), and has a streamlined permission system and more modern UI. More information about Puzzlord's design can be found in [this post](https://blog.vero.site/post/2021-hunt).
+Puzzlord is a redesigned version of [Puzzletron](https://github.com/mysteryhunt/puzzle-editing), the software that Mystery Hunt teams historically used to organize their puzzle-writing. Puzzlord is a Django app (Puzzletron uses PHP), and has a streamlined permission system and more modern UI. More information about Puzzlord's design can be found in [this post](https://blog.vero.site/post/2021-hunt).
 
 ## Testsolving
 
