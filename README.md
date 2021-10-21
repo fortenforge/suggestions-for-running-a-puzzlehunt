@@ -34,7 +34,7 @@ Testsolving is the process of having unspoiled solvers try out your puzzle. **Te
 
 Testsolving not only allows other people to give you valuable feedback, but also proves that your puzzle is actually solvable. Writing teams for the MIT Mystery Hunt usually require that all puzzles that end up in the hunt receive two successful, independent, unspoiled testsolves. Depending on how many people you have available for testsolving, this might be a high threshold to match, but you should be very wary of including a puzzle in your hunt which has received no successful testsolves.
 
-If you have a lot of puzzles, puzzle authors, and testsolvers, it can be hard to manage the testsolving process. One of puzzlord's most useful features is that it allows testsolvers to independently find a puzzle that they are unspoiled on and testsolve it. It also forces testsolvers to writeup a report of their efforts which will get relayed back to the author and editor.
+If you have a lot of puzzles, puzzle authors, and testsolvers, it can be hard to manage the testsolving process. One of Puzzlord's most useful features is that it allows testsolvers to independently find a puzzle that they are unspoiled on and testsolve it. It also forces testsolvers to writeup a report of their efforts which will get relayed back to the author and editor.
 
 It can be very hard to resist the temptation to interfere in an ongoing testsolving session for a puzzle that you wrote. Nevertheless, it's important to not intervene in any way to replicate the conditions that real solvers will be operating under in your hunt. If you must give a hint, try to emulate whatever hint-granting process you've agreed upon for your hunt (i.e. if you plan to have Y/N hints, allow testsolvers to ask you a Y/N question).
 
@@ -126,13 +126,15 @@ Some hunts accept multiple different answers for a puzzle, but provide the solve
 
 ## Hints
 
-There's a wide disparity in skill level of puzzlehunting teams. It's likely that some teams participating in your hunt won't be able to complete it without relying on hints. There are several different ways to provide hints. Probably the easiest way operationally are "canned (pre-written) hints". One problem with canned hints is that the hint will often help with a part of the puzzle that a team has already figured out.
+There's a wide disparity in skill level of puzzlehunting teams. It's likely that some teams participating in your hunt won't be able to complete it without relying on hints. There are several different ways to provide hints. Probably the easiest way operationally are "canned (pre-written) hints". One problem with canned hints is that the hint will often help with a part of the puzzle that a team has already figured out. It might be useful to generate multiple canned hints per puzzle and annotate them with the rough stage of the puzzle it corresponds to.
 
-If you're feeling ambitious, you can offer some form of dynamic hinting. One system popularized by the 2015 MIT Mystery Hunt is Y/N hinting, in which teams get to ask any Yes / No question about the puzzle that they would like. This ensures that every team with the hint receives exactly 1 bit of information from it, while allowing teams stuck on different parts of the puzzle to receive different pieces of information. Some people also find crafting a good Y/N question to ask on a puzzle to be a fun exercise, and something of a puzzle in and of itself.
+If you're feeling ambitious, you can offer some form of dynamic hinting, where you allow teams to receive a personalized hint based on their current progress on a puzzle. We've found it helpful to give teams an empty textbox which they can use to ask for a nudge, confirm data, ask a specific question, or simply link a spreadsheet with their current work.
 
-If you do give out Y/N questions, don't be too stingy with them! 1 Y/N question tends to not help very much, but a series of carefully targeted Y/N questions can often get teams unstuck, without ever feeling like you're spoiling major parts of the puzzle for them.
+One system popularized by the 2015 MIT Mystery Hunt is Y/N hinting, in which teams get to ask any Yes / No question about the puzzle that they would like. This ensures that every team with the hint receives exactly 1 bit of information from it, while allowing teams stuck on different parts of the puzzle to receive different pieces of information. Some people also find crafting a good Y/N question to ask on a puzzle to be a fun exercise, and something of a puzzle in and of itself. If you do give out Y/N questions, don't be too stingy with them! 1 Y/N question tends to not help very much, but a series of carefully targeted Y/N questions can often get teams unstuck, without ever feeling like you're spoiling major parts of the puzzle for them.
 
-One major downside to Y/N hints is that the teams that make use of them the best tend to be the ones who are already doing well on the hunt in the first place. Inevitably, there will be teams that will need a specific nudge forward, and you should have some provision of your hint system that allows them to get help.
+Y/N hints have fallen out of favor since 2015, largely because the teams that make use of them the best tend to be the ones who are already doing well on the hunt in the first place. Inevitably, there will be teams that will need a specific nudge forward, and you should have some provision of your hint system that allows them to get help.
+
+
 
 # Tech
 
